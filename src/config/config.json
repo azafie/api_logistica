@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "estoque",
+    "password": "12345",
+    "database": "estoque_db",
+    "host": "192.168.3.10",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "estoque",
+    "password": "12345",
+    "database": "estoque_db_test",
+    "host": "192.168.3.10",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "estoque",
+    "password": "12345",
+    "database": "estoque_db",
+    "host": "192.168.3.10",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
